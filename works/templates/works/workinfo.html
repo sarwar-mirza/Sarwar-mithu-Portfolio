@@ -1,0 +1,72 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %} {{title_name}} {% endblock title %}
+
+
+
+{% block content %}
+<!--==== WORKS ====-->
+<section class="works section" id="works">
+    <span class="section-subtitle">My Portfolio</span>
+    <h2 class="section-title">Recent Works</h2>
+
+    <div class="works__container bd-grid">
+        <div class="works__img">
+            <img src="{% static 'works/assets/work1.jpg' %}" alt="">
+
+            <div class="works__data">
+                <a href="https://github.com/sarwar-mirza/ShoppingX" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+
+            <div class="works__img">
+                <img src="{% static 'works/assets/work2.jpg' %}" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/sarwar-mirza/Image-Uploader" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                    <span class="works__title">Work 2</span>
+                </div>
+            </div>
+
+            <div class="works__img">
+                <img src="{% static 'works/assets/work3.jpg' %}" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/sarwar-mirza/Mini-Blog" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                    <span class="works__title">Work 3</span>
+                </div>
+            </div>
+
+            <div class="works__img">
+                <img src="{% static 'works/assets/work4.jpg' %}" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/sarwar-mirza/Mini-Blog" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                    <span class="works__title">Work 4</span>
+                </div>
+            </div>
+
+            <div class="works__img">
+                <img src="{% static 'works/assets/work5.jpg' %}" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/sarwar-mirza/ShoppingX" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                    <span class="works__title">Work 5</span>
+                </div>
+            </div>
+
+            <div class="works__img">
+                <img src="{% static 'works/assets/work6.jpg' %}" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/sarwar-mirza/Mini-Blog" target="_blank" class="works__link"><i class='bx bx-link-alt'></i></a>
+                    <span class="works__title">Work 6</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock content %}

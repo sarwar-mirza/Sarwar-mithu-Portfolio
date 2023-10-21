@@ -1,0 +1,29 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+
+
+{% block content %}<!-- HOME -->
+<section class="home" id="home">
+    <div class="home__container bd-grid">
+        <div class="home__data">
+            <div class="home__img">
+                <img src="{% static 'portfolio/assets/sarwar-mithu.png' %}" alt="Profile_img">
+            </div>
+
+            <h1 class="home__title">Md Golam Sarwar</h1>
+            <span class="home__profession">Backend Developer</span>
+
+            <div class="home__social">
+                <a href="https://github.com/sarwar-mirza" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/sarwar-mirza" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
+                
+            </div>
+
+            <a  href="{% url 'contact' %}" class="button home__button">Hire Me</a>
+        </div>
+    </div>
+
+
+</section>
+{% endblock content %}

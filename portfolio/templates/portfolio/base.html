@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Personal Portfolio {% endblock title %}</title>
+
+    
+    <!--link css start here-->
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+    <!--link css end here-->
+    
+
+    <!-- Box Icons (https://boxicons.com/usage)-->
+   
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!--NAVBAR START-->
+    {% include 'portfolio/navbar.html' %}
+
+    <!--MINE START-->
+    
+    <main class="l-main">
+        {% block content %} {% endblock content %}    
+    </main>
+    
+
+    <!--FOOTER START-->
+    
+
+    <!--JavaScript -->
+    <script src="{% static 'portfolio/js/main.js' %}"></script>
+</body>
+</html>

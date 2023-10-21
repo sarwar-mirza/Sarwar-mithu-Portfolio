@@ -1,0 +1,141 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %} {{title_name}} {% endblock title %}
+
+
+{% block content %}
+<!--==== SKILLS ====-->
+<section class="skills section" id="skills">
+    <span class="section-subtitle">Why Choose Me</span>
+    <h2 class="section-title">My Expertise Area</h2>
+
+    <div class="skills__container bd-grid">
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
+
+            <div class="skills__data">
+                <span class="skills__name">Html</span>
+                <span class="skills__number">75%</span>
+                <span class="skills__bar skills__html"></span>
+            </div>
+
+            <div class="skills__data">
+                <span class="skills__name">CSS3</span>
+                <span class="skills__number">65%</span>
+                <span class="skills__bar skills__css"></span>
+            </div>
+
+            <div class="skills__data">
+                <span class="skills__name">Bootstrap</span>
+                <span class="skills__number">70%</span>
+                <span class="skills__bar skills__bootstrap"></span>
+            </div>
+
+             <div class="skills__data">
+                <span class="skills__name">JavaScript</span>
+                <span class="skills__number">45%</span>
+                <span class="skills__bar skills__js"></span>
+            </div>
+        </div>
+
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <div class="skills__data">
+                <span class="skills__name">Python</span>
+                <span class="skills__number">68%</span>
+                <span class="skills__bar skills__python"></span>
+            </div>
+
+            <div class="skills__data">
+                <span class="skills__name">Java</span>
+                <span class="skills__number">60%</span>
+                <span class="skills__bar skills__java"></span>
+            </div>
+
+            <div class="skills__data">
+                <span class="skills__name">C++</span>
+                <span class="skills__number">62%</span>
+                <span class="skills__bar skills__cp"></span>
+            </div>
+
+            <div class="skills__data">
+                <span class="skills__name">C Programming</span>
+                <span class="skills__number">65%</span>
+                <span class="skills__bar skills__cprogramming"></span>
+            </div>
+        </div>
+
+        
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Framework</h3>
+
+            <div class="skills__data">
+                <span class="skills__name">Django</span>
+                <span class="skills__number">75%</span>
+                <span class="skills__bar skills__django"></span>
+            </div>
+        </div>
+        
+        <div class="skills__content">
+            <h3 class="skills__subtitle">DataBase</h3>
+
+            <div class="skills__data">
+                <span class="skills__name">MYSQL | SQLITE3</span>
+                <span class="skills__number">80%</span>
+                <span class="skills__bar skills__database"></span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!--==== EDUCATION ====-->
+<section class="education section">
+    <span class="section-subtitle">Qualifiction</span>
+    <h2 class="section-title">My Education</h2>
+
+    <div class="education__container bd-grid">
+        <div class="education__content">
+            <div>
+                <h3 class="education__year">2016-2020</h3>
+                <span class="education__university">Eastern University</span>
+            </div>
+
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+
+            <div>
+                <h3 class="education__race">Bachelor of science</h3>
+                <span class="education__specialty">Computer Science Engineering</span>
+                <span class="education__specialty">CGPA: 3.40 | 4</span>
+            </div>
+        </div>
+
+        <div class="education__content">
+            <div>
+                <h3 class="education__year">2011-2015</h3>
+                <span class="education__university">Shariyatpur Polytechnic Institute</span>
+            </div>
+
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+
+            <div>
+                <h3 class="education__race">Diploma Engineering</h3>
+                <span class="education__specialty">Telecommunication Engineering</span>
+                <span class="education__specialty">CGPA: 3.30 | 4</span>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+{% endblock content %}

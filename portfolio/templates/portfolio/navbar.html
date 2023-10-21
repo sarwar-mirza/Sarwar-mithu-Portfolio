@@ -1,0 +1,29 @@
+<!-- HEADER START -->
+
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div>
+            <a href="#" class="nav__logo">Mithu</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+             <div class="nav__close" id="nav-close">
+                <i class='bx bx-x' ></i>
+             </div>
+
+             <ul class="nav__list">
+                 <li class="nav__item"><a href="{% url 'home' %}" class="nav__link" {{a_home}} >Home</a></li>
+                 <li class="nav__item"><a href="{% url 'aboutus' %}" class="nav__link">About</a></li>
+                 <li class="nav__item"><a href="{% url 'skill' %}" class="nav__link">Skills</a></li>
+                 <li class="nav__item"><a href="{% url 'service' %}" class="nav__link">Services</a></li>
+                 <li class="nav__item"><a href="{% url 'works' %}" class="nav__link">Works</a></li>
+                 <li class="nav__item"><a href="{% url 'contact' %}" class="nav__link">Contact</a></li>
+             </ul>
+        </div>
+        
+
+    </nav>
+</header>

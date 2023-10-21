@@ -1,0 +1,48 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %} {{title_name}} {% endblock title %}
+
+
+{% block content %}
+<!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <span class="section-subtitle">Contact Me</span>
+    <h2 class="section-title">Get In Touch</h2>
+
+    <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+            <div class="contact__inputs">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+            </div>
+
+            <input type="text" placeholder="Project" class="contact__input">
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+            <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+
+        <div>
+            <div class="contact__info">
+                <h3 class="contact__subtitle">Call Me</h3>
+                <span class="contact__text">+8801964626938</span>
+                <span class="contact__text">+8801643031525</span>
+            </div>
+
+            <div class="contact__info">
+                <h3 class="contact__subtitle">E-mail</h3>
+                <span class="contact__text">sarwarmithucse@gmail.com</span>
+            </div>
+
+            <div class="contact__info">
+                <h3 class="contact__subtitle">Location</h3>
+                <span class="contact__text">H-No: 25/11/A Sonali Bank Goli</span>
+                <span class="contact__text">Dhanmondi, Zigatola</span>
+                <span class="contact__text">Dhaka - 1209</span>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
